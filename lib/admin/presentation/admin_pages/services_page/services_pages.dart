@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:hair_saloon/core/service/chip_data_model.dart';
 import 'package:hair_saloon/core/utils/custom_textfield.dart';
 import 'package:hair_saloon/core/widgets/barberservice_tiles.dart';
@@ -36,7 +37,7 @@ class Services extends StatelessWidget {
               //Edit and Remove Services Card
               Card1(
                 onTap: () {
-                  // Navigate to edit/remove services page
+                  Get.toNamed('/edit-or-remove');
                 },
                 icon: Icons.edit_rounded,
                 label: 'Edit or Remove Services',

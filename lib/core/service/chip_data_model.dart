@@ -8,12 +8,13 @@ class ChipData {
   final double price; // service price
 
   const ChipData({
-    required this.id,
+    int? id,
     required this.label,
     required this.description,
-    required this.color,
+    Color? color,
     required this.price,
-  });
+  }) : id = id ?? 0,
+       color = color ?? Colors.grey; // default values
 }
 
 class Chips {

@@ -2,7 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/employees.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/reports.dart';
-import 'package:hair_saloon/admin/presentation/admin_pages/services/services.dart';
+import 'package:hair_saloon/admin/presentation/admin_pages/services_page/services_pages.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/settings.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/summary.dart';
 
