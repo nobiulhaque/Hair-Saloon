@@ -1,6 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:hair_saloon/admin/presentation/admin_pages/employees.dart';
+import 'package:hair_saloon/admin/presentation/admin_pages/employee/employees.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/reports/reports.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/services_page/services_pages.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/settings.dart';

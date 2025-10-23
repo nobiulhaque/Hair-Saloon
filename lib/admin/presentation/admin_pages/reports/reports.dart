@@ -11,12 +11,7 @@ class Reports extends StatefulWidget {
 }
 
 class _ReportsState extends State<Reports> {
-  // State variables are now in the ReportProvider, so we remove:
-  // final List<String> _timeFrames = ['Today', 'Weekly', 'Monthly'];
-  // String? _selectedTimeFrame = 'Today';
-  // late Future<List<EmployeeReport>> _reportsFuture;
-  // @override initState()
-  // filterReports()
+
 
   // We only keep the local method definitions or constants if needed.
   final List<String> _timeFrames = ['Today', 'Weekly', 'Monthly'];

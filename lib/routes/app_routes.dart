@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:hair_saloon/admin/presentation/admin_pages/employee/pages/add_employees.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/services_page/pages/edit_or_remove.dart';
 import 'package:hair_saloon/hdm/presentation/hidden_drawer_menu.dart';
 import 'package:hair_saloon/home/presentation/home_page.dart';
@@ -8,6 +9,7 @@ class AppRoutes {
   static const String hiddenDrawer = '/';
   static const String home = '/home';
   static const String editOrRemove = '/edit-or-remove';
+  static const String addemployees = '/add_employee';
 
   // Define route pages
   static final routes = [
@@ -24,6 +26,11 @@ class AppRoutes {
     GetPage(
       name: editOrRemove,
       page: () => const EditOrRemove(),
+      transition: Transition.rightToLeft,
+    ),
+    GetPage(
+      name: addemployees,
+      page: () => const AddEmployees(),
       transition: Transition.rightToLeft,
     ),
   ];
