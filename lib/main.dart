@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hair_saloon/admin/presentation/admin_pages/reports/controller/reportProvider.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/services_page/provider/service_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:hair_saloon/core/service/booking_provider.dart';
@@ -14,6 +15,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => ChipProvider()),
         ChangeNotifierProvider(create: (_) => BookingProvider()),
         ChangeNotifierProvider(create: (_) => ServiceProvider()),
+        ChangeNotifierProvider(create: (_) => ReportProvider()),
       ],
       child: const MyApp(),
     ),
