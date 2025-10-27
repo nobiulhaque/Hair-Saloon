@@ -4,7 +4,7 @@ import 'package:hair_saloon/admin/presentation/admin_pages/employee/employees.da
 import 'package:hair_saloon/admin/presentation/admin_pages/reports/reports.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/services_page/services_pages.dart';
 import 'package:hair_saloon/admin/presentation/admin_pages/settings.dart';
-import 'package:hair_saloon/admin/presentation/admin_pages/summary.dart';
+import 'package:hair_saloon/admin/presentation/admin_pages/summaray/summary.dart';
 
 class Admin extends StatefulWidget {
   const Admin({super.key});

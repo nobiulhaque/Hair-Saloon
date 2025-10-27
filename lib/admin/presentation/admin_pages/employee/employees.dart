@@ -30,20 +30,7 @@ class Employees extends StatelessWidget {
               ),
               const SizedBox(height: 10),
 
-              // Divider line with elevation
-              Material(
-                elevation: 2,
-                borderRadius: BorderRadius.circular(10),
-                child: Container(
-                  height: 5,
-                  width: 350,
-                  decoration: BoxDecoration(
-                    color: Colors.grey.shade300,
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 10),
+             
 
               // Employee grid
               Expanded(
@@ -60,7 +47,7 @@ class Employees extends StatelessWidget {
                           Colors.white,
                           Colors.transparent,
                         ],
-                        stops: [0.0, 0.03, 0.95, 1.0],
+                        stops: [0.0, 0.01, 0.98, 1.0],
                       ).createShader(rect);
                     },
                     blendMode: BlendMode.dstIn,
@@ -91,6 +78,7 @@ class Employees extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 10,),
             ],
           ),
         ),
